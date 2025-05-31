@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SkillSphere | Global Skills Development Platform</title>
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#2563eb">
+    <link rel="stylesheet" href="main.css">
+    <!-- Preload critical assets -->
+    <link rel="preload" href="assets/fonts/Inter.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/css/main.css" as="style">
+    <link rel="preload" href="assets/js/main.js" as="script">
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Social meta -->
+    <meta property="og:title" content="SkillSphere | Learn In-Demand Skills for Free">
+    <meta property="og:description" content="Global platform for vocational, digital, leadership and life skills education with recognized certifications">
+    <meta property="og:image" content="https://skillsphere.org/assets/images/social-share.jpg">
+    <meta property="og:url" content="https://skillsphere.org">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX', { 
+            'anonymize_ip': true,
+            'cookie_flags': 'SameSite=None;Secure'
+        });
+    </script>
+</head>
+<body>
+    <!-- Global Header Bar -->
+    <div class="global-bar">
+        <div class="container">
+            <div class="global-links">
+                <a href="#" class="language-selector" aria-label="Change language">
+                    <span class="current-language">English</span>
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M6 9l6 6 6-6"></path>
+                    </svg>
+                    <ul class="language-dropdown">
+                        <li><a href="/es" hreflang="es" lang="es">Español</a></li>
+                        <li><a href="/fr" hreflang="fr" lang="fr">Français</a></li>
+                        <li><a href="/pt" hreflang="pt" lang="pt">Português</a></li>
+                        <li><a href="/ar" hreflang="ar" lang="ar">العربية</a></li>
+                    </ul>
+                </a>
+                <span class="divider">|</span>
+                <a href="#regional-hubs" class="region-link">Regional Hubs</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="SkillSphere.png" alt="SkillSphere" width="auto" height="40" loading="eager">
+            </a>
+            
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="/courses">Courses</a></li>
+                    <li><a href="/certifications">Certifications</a></li>
+                    <li><a href="/partners">For Partners</a></li>
+                    <li><a href="/employers">For Employers</a></li>
+                    <li><a href="/about">About</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="/login" class="btn btn-secondary">Log In</a>
+                <a href="/signup" class="btn btn-primary">Sign Up Free</a>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Learn Skills That Change Lives</h1>
+                <p class="subtitle">Free vocational, digital, and leadership training with globally recognized certifications</p>
+                
+                <div class="hero-cta">
+                    <a href="/courses" class="btn btn-primary btn-large">Browse Courses</a>
+                    <a href="/how-it-works" class="btn btn-text">How It Works 
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="number" data-count="250000">0</span>
+                        <span class="label">Learners</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" data-count="120">0</span>
+                        <span class="label">Countries</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number" data-count="500">0</span>
+                        <span class="label">Courses</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <figure>
+                    <picture>
+                        <source srcset="SkillSphere2.png" media="(max-width: 767px)">
+                        <img src="SkillSphere2.png" alt="Diverse group of SkillSphere learners" loading="lazy" width="600" height="400">
+                    </picture>
+                    <figcaption>Diverse group of SkillSphere learners</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Trust Indicators -->
+    <section class="trust-badges">
+        <div class="container">
+            <p class="trust-label">Trusted by organizations worldwide</p>
+            <div class="badges-container">
+                <img src="UNICEF.png" alt="UNICEF" loading="lazy" width="120" height="40">
+                <img src="google.png" alt="Google" loading="lazy" width="120" height="40">
+                <img src="undp.png" alt="UNDP" loading="lazy" width="120" height="40">
+                <img src="Microsoft.png" alt="Microsoft" loading="lazy" width="120" height="40">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Course Categories -->
+    <section class="course-categories">
+        <div class="container">
+            <h2>Master In-Demand Skills</h2>
+            <p class="section-subtitle">Free courses with practical, job-ready training</p>
+            
+            <div class="categories-grid">
+                <!-- Vocational Skills -->
+                <a href="/courses/vocational" class="category-card">
+                    <div class="card-image">
+                        <img src="vocational.png" alt="Vocational Training" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="card-content">
+                        <h3>Vocational Skills</h3>
+                        <p>Carpentry, welding, healthcare, and more skilled trades</p>
+                        <span class="card-link">Explore <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+                    </div>
+                </a>
+                
+                <!-- Digital Skills -->
+                <a href="/courses/digital" class="category-card">
+                    <div class="card-image">
+                        <img src="digital.png" alt="Digital Skills" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="card-content">
+                        <h3>Digital Skills</h3>
+                        <p>Coding, design, digital marketing, and IT fundamentals</p>
+                        <span class="card-link">Explore <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+                    </div>
+                </a>
+                
+                <!-- Leadership -->
+                <a href="/courses/leadership" class="category-card">
+                    <div class="card-image">
+                        <img src="leader.png " alt="Leadership Training" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="card-content">
+                        <h3>Leadership</h3>
+                        <p>Management, communication, and team building</p>
+                        <span class="card-link">Explore <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+                    </div>
+                </a>
+                
+                <!-- Life Skills -->
+                <a href="/courses/life-skills" class="category-card">
+                    <div class="card-image">
+                        <img src="life.png" alt="Life Skills" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="card-content">
+                        <h3>Life Skills</h3>
+                        <p>Financial literacy, mental health, and personal development</p>
+                        <span class="card-link">Explore <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+                    </div>
+                </a>
+                
+                <!-- Green & Sustainable Skills -->
+                <a href="/courses/green-skills" class="category-card">
+                    <div class="card-image">
+                        <img src="green.png" alt="Green & Sustainable Skills" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="card-content">
+                        <h3>Green & Sustainable Skills</h3>
+                        <p>Renewable energy, sustainable agriculture, and eco-friendly practices</p>
+                        <span class="card-link">Explore <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+                    </div>
+                </a>
+                
+                <!-- Business & Entrepreneurship -->
+                <a href="/courses/business" class="category-card">
+                    <div class="card-image">
+                        <img src="business.png" alt="Business & Entrepreneurship" loading="lazy" width="400" height="300">
+                    </div>
+                    <div class="card-content">
+                        <h3>Business & Entrepreneurship</h3>
+                        <p>Startup fundamentals, business planning, and financial management</p>
+                        <span class="card-link">Explore <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Global Impact -->
+    <section class="global-impact">
+        <div class="container">
+            <div class="impact-content">
+                <h2>Creating Opportunities Worldwide</h2>
+                <p>SkillSphere partners with local organizations to deliver culturally relevant education that leads to real employment opportunities.</p>
+                
+                <div class="impact-stats">
+                    <div class="impact-stat">
+                        <span class="number">85%</span>
+                        <span class="label">Employment rate for certified learners</span>
+                    </div>
+                    <div class="impact-stat">
+                        <span class="number">40%</span>
+                        <span class="label">Women learners</span>
+                    </div>
+                    <div class="impact-stat">
+                        <span class="number">60%</span>
+                        <span class="label">Courses available offline</span>
+                    </div>
+                </div>
+                
+                <a href="/impact" class="btn btn-secondary">See Our Impact</a>
+            </div>
+            
+            <div class="impact-map">
+                <img src="global-impact.png" alt="SkillSphere Global Reach" loading="lazy" width="600" height="400">
+                <div class="map-dots">
+                    <div class="dot africa" data-region="africa"></div>
+                    <div class="dot asia" data-region="asia"></div>
+                    <div class="dot europe" data-region="europe"></div>
+                    <div class="dot americas" data-region="americas"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Courses</h2>
+                <a href="/courses" class="view-all">View All Courses 
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+            
+            <div class="course-filters">
+                <div class="filter-group">
+                    <label for="category-filter">Category</label>
+                    <select id="category-filter">
+                        <option value="all">All Categories</option>
+                        <option value="vocational">Vocational Skills</option>
+                        <option value="digital">Digital Skills</option>
+                        <option value="leadership">Leadership</option>
+                        <option value="life-skills">Life Skills</option>
+                        <option value="green-skills">Green Skills</option>
+                        <option value="business">Business</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="level-filter">Level</label>
+                    <select id="level-filter">
+                        <option value="all">All Levels</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="language-filter">Language</label>
+                    <select id="language-filter">
+                        <option value="all">All Languages</option>
+                        <option value="english">English</option>
+                        <option value="spanish">Spanish</option>
+                        <option value="french">French</option>
+                        <option value="arabic">Arabic</option>
+                    </select>
+                </div>
+                
+                <button id="reset-filters" class="btn btn-text">Reset Filters</button>
+            </div>
+            
+            <div class="courses-carousel">
+                <!-- Course Card 1 -->
+                <div class="course-card" data-category="digital" data-level="beginner" data-language="english">
+                    <div class="card-badge">Most Popular</div>
+                    <div class="card-image">
+                        <img src="digital-marketing.png" alt="Digital Marketing Fundamentals" loading="lazy" width="400" height="225">
+                    </div>
+                    <div class="card-content">
+                        <div class="course-level">Beginner</div>
+                        <h3>Digital Marketing Fundamentals</h3>
+                        <p class="course-description">Learn SEO, social media, and content marketing strategies to grow businesses online.</p>
+                        <div class="course-meta">
+                            <span class="duration">8 Weeks</span>
+                            <span class="lessons">24 Lessons</span>
+                        </div>
+                        <a href="/course/digital-marketing" class="btn btn-small">Start Learning</a>
+                    </div>
+                </div>
+                
+                <!-- Course Card 2 -->
+                <div class="course-card" data-category="green-skills" data-level="beginner" data-language="english">
+                    <div class="card-badge">New</div>
+                    <div class="card-image">
+                        <img src="solar.png" alt="Solar Energy Basics" loading="lazy" width="400" height="225">
+                    </div>
+                    <div class="card-content">
+                        <div class="course-level">Beginner</div>
+                        <h3>Solar Energy Basics</h3>
+                        <p class="course-description">Introduction to solar panel installation and maintenance for residential use.</p>
+                        <div class="course-meta">
+                            <span class="duration">6 Weeks</span>
+                            <span class="lessons">18 Lessons</span>
+                        </div>
+                        <a href="/course/solar-energy" class="btn btn-small">Start Learning</a>
+                    </div>
+                </div>
+                
+                <!-- Course Card 3 -->
+                <div class="course-card" data-category="business" data-level="intermediate" data-language="english">
+                    <div class="card-image">
+                        <img src="setup.png" alt="Startup Fundamentals" loading="lazy" width="400" height="225">
+                    </div>
+                    <div class="card-content">
+                        <div class="course-level">Intermediate</div>
+                        <h3>Startup Fundamentals</h3>
+                        <p class="course-description">Essential knowledge for launching and growing a successful business.</p>
+                        <div class="course-meta">
+                            <span class="duration">5 Weeks</span>
+                            <span class="lessons">15 Lessons</span>
+                        </div>
+                        <a href="/course/startup-fundamentals" class="btn btn-small">Start Learning</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>Success Stories</h2>
+            <p class="section-subtitle">Hear from our global community of learners</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"After completing the web development course, I got my first freelance client within a month. SkillSphere changed my career path!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="maria.png" alt="Maria" loading="lazy" width="60" height="60">
+                        <div class="author-info">
+                            <strong>Maria G.</strong>
+                            <span>Philippines</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The solar energy course helped me start a small business installing solar panels in my village. Now I'm the local expert!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="Fatima.png" alt="Kwame" loading="lazy" width="60" height="60">
+                        <div class="author-info">
+                            <strong>Kwame T.</strong>
+                            <span>Ghana</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The business courses gave me the confidence to expand my small shop into three locations. I now employ 12 people."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="Fatima.png" alt="Fatima" loading="lazy" width="60" height="60">
+                        <div class="author-info">
+                            <strong>Fatima A.</strong>
+                            <span>Jordan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Certification CTA -->
+    <section class="certification-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Earn Recognized Certifications</h2>
+                <p>All SkillSphere courses offer free certificates upon completion that are valued by employers worldwide.</p>
+                <a href="/certifications" class="btn btn-primary">Learn About Certifications</a>
+            </div>
+            <div class="cta-image">
+                <img src="sample.png" alt="Sample Certificate" loading="lazy" width="70" height="90" style="border-radius: 42px">
+            </div>
+        </div>
+        <br>
+    </section>
+    
+    <!-- Partners CTA -->
+    <section class="partners-cta">
+        <div class="container">
+            <div class="cta-card school">
+                
+                <h3>For Schools & NGOs</h3>
+                <p>Integrate our courses into your programs with our partnership options.</p>
+                <a href="/partners" class="btn btn-small">Partner With Us</a>
+            </div>
+            
+            <div class="cta-card employer">
+                <h3>For Employers</h3>
+                <p>Access skilled talent and sponsor courses for your workforce.</p>
+                <a href="/employers" class="btn btn-small">Hire Talent</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Get the latest course announcements and learning tips delivered to your inbox.</p>
+            </div>
+            <form class="newsletter-form" id="newsletter-form">
+                <div class="form-group">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </div>
+                <div class="form-footer">
+                    <p>We respect your privacy. Unsubscribe at any time.</p>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col logo-col">
+                    <a href="/" class="footer-logo">
+                        <img src="SkillSphere.png" alt="SkillSphere" width="160" height="35" loading="lazy" style="border-radius: 50%">
+                    </a>
+                    <p class="footer-mission">Empowering global communities through accessible skills education.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                        <a href="#" aria-label="LinkedIn"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                        <a href="#" aria-label="YouTube"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Learning</h4>
+                    <ul>
+                        <li><a href="/courses">All Courses</a></li>
+                        <li><a href="/certifications">Certifications</a></li>
+                        <li><a href="/learning-paths">Learning Paths</a></li>
+                        <li><a href="/mobile-app">Mobile App</a></li>
+                        <li><a href="/offline-learning">Offline Learning</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="/about">Our Mission</a></li>
+                        <li><a href="/team">Our Team</a></li>
+                        <li><a href="/partners">Partners</a></li>
+                        <li><a href="/impact">Impact</a></li>
+                        <li><a href="/jobs">Careers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="/help">Help Center</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/terms">Terms</a></li>
+                        <li><a href="/privacy">Privacy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Global Hubs</h4>
+                    <ul>
+                        <li><a href="/region/africa">Africa</a></li>
+                        <li><a href="/region/asia">Asia</a></li>
+                        <li><a href="/region/europe">Europe</a></li>
+                        <li><a href="/region/latin-america">Latin America</a></li>
+                        <li><a href="/region/middle-east">Middle East</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">© 2023 SkillSphere. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="/accessibility">Accessibility</a>
+                    <a href="/sitemap">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script>
+         // ==========================================================================
+// Main Application Script
+// ==========================================================================
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize all components
+  initMobileMenu();
+  initLanguageSelector();
+  initCounters();
+  initCourseFilters();
+  initTestimonials();
+  initMapAnimation();
+  initNewsletterForm();
+  initAnimations();
+  initImageLoading();
+  initAnalytics();
+});
+
+// ==========================================================================
+// Mobile Menu Toggle
+// ==========================================================================
+function initMobileMenu() {
+  const menuToggle = document.querySelector('.mobile-menu-toggle');
+  const mainNav = document.querySelector('.main-nav');
+  
+  if (!menuToggle || !mainNav) return;
+  
+  menuToggle.addEventListener('click', function() {
+    this.classList.toggle('active');
+    mainNav.classList.toggle('active');
+    document.body.classList.toggle('no-scroll');
+    
+    // Update aria-expanded attribute
+    const isExpanded = this.classList.contains('active');
+    this.setAttribute('aria-expanded', isExpanded);
+  });
+  
+  // Close menu when clicking on a link
+  const navLinks = mainNav.querySelectorAll('a');
+  navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      menuToggle.classList.remove('active');
+      mainNav.classList.remove('active');
+      document.body.classList.remove('no-scroll');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+}
+
+// ==========================================================================
+// Language Selector
+// ==========================================================================
+function initLanguageSelector() {
+  const languageSelectors = document.querySelectorAll('.language-selector');
+  
+  languageSelectors.forEach(selector => {
+    selector.addEventListener('click', function(e) {
+      e.preventDefault();
+      this.classList.toggle('active');
+    });
+  });
+  
+  // Close when clicking outside
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.language-selector')) {
+      languageSelectors.forEach(selector => {
+        selector.classList.remove('active');
+      });
+    }
+  });
+}
+
+// ==========================================================================
+// Animated Counters
+// ==========================================================================
+function initCounters() {
+  const counters = document.querySelectorAll('.number[data-count]');
+  if (!counters.length) return;
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateCounter(entry.target);
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+  
+  counters.forEach(counter => {
+    observer.observe(counter);
+  });
+}
+
+function animateCounter(element) {
+  const target = parseInt(element.getAttribute('data-count'));
+  const duration = 2000; // Animation duration in ms
+  const start = 0;
+  const increment = target / (duration / 16); // Roughly 60fps
+  const isCurrency = element.classList.contains('currency');
+  
+  let current = start;
+  const timer = setInterval(() => {
+    current += increment;
+    if (current >= target) {
+      clearInterval(timer);
+      current = target;
+    }
+    element.textContent = isCurrency 
+      ? '$' + Math.floor(current).toLocaleString()
+      : Math.floor(current).toLocaleString();
+  }, 16);
+}
+
+// ==========================================================================
+// Course Filters
+// ==========================================================================
+function initCourseFilters() {
+  const filterContainer = document.querySelector('.course-filters');
+  if (!filterContainer) return;
+  
+  const categoryFilter = document.getElementById('category-filter');
+  const levelFilter = document.getElementById('level-filter');
+  const languageFilter = document.getElementById('language-filter');
+  const resetBtn = document.getElementById('reset-filters');
+  const courseCards = document.querySelectorAll('.course-card');
+  
+  if (!categoryFilter || !levelFilter || !languageFilter || !resetBtn || !courseCards.length) return;
+  
+  // Filter courses based on selections
+  function filterCourses() {
+    const categoryValue = categoryFilter.value;
+    const levelValue = levelFilter.value;
+    const languageValue = languageFilter.value;
+    
+    let visibleCount = 0;
+    
+    courseCards.forEach(card => {
+      const cardCategory = card.getAttribute('data-category');
+      const cardLevel = card.getAttribute('data-level');
+      const cardLanguage = card.getAttribute('data-language');
+      
+      const categoryMatch = categoryValue === 'all' || cardCategory === categoryValue;
+      const levelMatch = levelValue === 'all' || cardLevel === levelValue;
+      const languageMatch = languageValue === 'all' || cardLanguage === languageValue;
+      
+      if (categoryMatch && levelMatch && languageMatch) {
+        card.style.display = 'block';
+        card.classList.add('animate-in');
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+        card.classList.remove('animate-in');
+      }
+    });
+    
+    // Show message if no courses match filters
+    const noResults = document.querySelector('.no-results');
+    if (visibleCount === 0) {
+      if (!noResults) {
+        const message = document.createElement('p');
+        message.className = 'no-results';
+        message.textContent = 'No courses match your filters. Try adjusting your criteria.';
+        filterContainer.parentNode.insertBefore(message, filterContainer.nextSibling);
+      }
+    } else if (noResults) {
+      noResults.remove();
+    }
+  }
+  
+  // Event listeners
+  categoryFilter.addEventListener('change', filterCourses);
+  levelFilter.addEventListener('change', filterCourses);
+  languageFilter.addEventListener('change', filterCourses);
+  
+  resetBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    categoryFilter.value = 'all';
+    levelFilter.value = 'all';
+    languageFilter.value = 'all';
+    filterCourses();
+    trackEvent('Courses', 'Reset Filters', 'All');
+  });
+  
+  // Initial filter
+  filterCourses();
+}
+
+// ==========================================================================
+// Testimonials Carousel
+// ==========================================================================
+function initTestimonials() {
+  const testimonialContainer = document.querySelector('.testimonials-grid');
+  if (!testimonialContainer) return;
+  
+  // Only initialize if there are multiple testimonials
+  const testimonials = testimonialContainer.querySelectorAll('.testimonial-card');
+  if (testimonials.length <= 1) return;
+  
+  // Convert to array for easier manipulation
+  const testimonialArray = Array.from(testimonials);
+  let currentIndex = 0;
+  
+  // Create navigation dots
+  const dotsContainer = document.createElement('div');
+  dotsContainer.className = 'testimonial-dots';
+  testimonialContainer.parentNode.appendChild(dotsContainer);
+  
+  testimonialArray.forEach((_, index) => {
+    const dot = document.createElement('button');
+    dot.className = 'testimonial-dot';
+    dot.setAttribute('aria-label', `View testimonial ${index + 1}`);
+    if (index === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => {
+      showTestimonial(index);
+      trackEvent('Testimonials', 'Dot Navigation', `Testimonial ${index + 1}`);
+    });
+    dotsContainer.appendChild(dot);
+  });
+  
+  function showTestimonial(index) {
+    // Update current index
+    currentIndex = index;
+    
+    // Update active dot
+    const dots = dotsContainer.querySelectorAll('.testimonial-dot');
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('active', i === currentIndex);
+    });
+    
+    // Animate testimonials
+    testimonialArray.forEach((testimonial, i) => {
+      testimonial.style.opacity = i === currentIndex ? '1' : '0';
+      testimonial.style.transform = i === currentIndex ? 'translateY(0)' : 'translateY(20px)';
+      testimonial.style.position = i === currentIndex ? 'relative' : 'absolute';
+      testimonial.style.pointerEvents = i === currentIndex ? 'auto' : 'none';
+    });
+  }
+  
+  // Auto-rotate testimonials
+  let interval = setInterval(() => {
+    currentIndex = (currentIndex + 1) % testimonialArray.length;
+    showTestimonial(currentIndex);
+  }, 5000);
+  
+  // Pause on hover
+  testimonialContainer.addEventListener('mouseenter', () => clearInterval(interval));
+  testimonialContainer.addEventListener('mouseleave', () => {
+    interval = setInterval(() => {
+      currentIndex = (currentIndex + 1) % testimonialArray.length;
+      showTestimonial(currentIndex);
+    }, 5000);
+  });
+  
+  // Initial display
+  showTestimonial(0);
+}
+
+// ==========================================================================
+// Map Animation
+// ==========================================================================
+function initMapAnimation() {
+  const mapSection = document.querySelector('.global-impact');
+  if (!mapSection) return;
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        animateMapDots();
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  
+  observer.observe(mapSection);
+}
+
+function animateMapDots() {
+  const dots = document.querySelectorAll('.dot');
+  if (!dots.length) return;
+  
+  dots.forEach((dot, index) => {
+    setTimeout(() => {
+      dot.style.transform = 'scale(1)';
+    }, index * 200);
+  });
+}
+
+// ==========================================================================
+// Newsletter Form
+// ==========================================================================
+function initNewsletterForm() {
+  const newsletterForm = document.getElementById('newsletter-form');
+  if (!newsletterForm) return;
+  
+  newsletterForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const emailInput = this.querySelector('input[type="email"]');
+    const email = emailInput.value.trim();
+    
+    if (!validateEmail(email)) {
+      showFormError(this, 'Please enter a valid email address');
+      return;
+    }
+    
+    // Simulate form submission
+    this.classList.add('submitting');
+    trackEvent('Newsletter', 'Subscribe Attempt', email);
+    
+    // In a real app, you would use fetch() to submit to your backend
+    setTimeout(() => {
+      this.classList.remove('submitting');
+      this.innerHTML = `
+        <div class="form-success">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+          <h3>Thank you for subscribing!</h3>
+          <p>You'll receive our next newsletter soon.</p>
+        </div>
+      `;
+      trackEvent('Newsletter', 'Subscribe Success', email);
+    }, 1500);
+  });
+}
+
+function validateEmail(email) {
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email);
+}
+
+function showFormError(form, message) {
+  let errorElement = form.querySelector('.form-error');
+  
+  if (!errorElement) {
+    errorElement = document.createElement('div');
+    errorElement.className = 'form-error';
+    form.insertBefore(errorElement, form.firstChild);
+  }
+  
+  errorElement.textContent = message;
+  
+  setTimeout(() => {
+    errorElement.style.opacity = '1';
+    errorElement.style.transform = 'translateY(0)';
+  }, 10);
+  
+  setTimeout(() => {
+    errorElement.style.opacity = '0';
+    errorElement.style.transform = 'translateY(-10px)';
+  }, 5000);
+}
+
+// ==========================================================================
+// Scroll Animations
+// ==========================================================================
+function initAnimations() {
+  const animateElements = document.querySelectorAll('.animate-in');
+  if (!animateElements.length) return;
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animated');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  
+  animateElements.forEach(element => {
+    observer.observe(element);
+  });
+}
+
+// ==========================================================================
+// Image Loading Optimization
+// ==========================================================================
+function initImageLoading() {
+  // Preload hero image
+  const heroImage = document.querySelector('.hero-image img');
+  if (heroImage) {
+    const src = heroImage.getAttribute('src');
+    if (src) preloadImage(src);
+  }
+  
+  // Preload critical category images
+  const categoryImages = document.querySelectorAll('.category-card img');
+  categoryImages.forEach(img => {
+    const src = img.getAttribute('src');
+    if (src) preloadImage(src);
+  });
+  
+  // Use IntersectionObserver for lazy loading non-critical images
+  if ('IntersectionObserver' in window) {
+    const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+    const imageObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src || img.src;
+          img.removeAttribute('loading');
+          imageObserver.unobserve(img);
+        }
+      });
+    }, { rootMargin: '200px 0px' });
+    
+    lazyImages.forEach(img => {
+      // Ensure we have a src to load
+      if (img.dataset.src || img.src) {
+        imageObserver.observe(img);
+      }
+    });
+  } else {
+    // Fallback for browsers without IntersectionObserver
+    const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+    lazyImages.forEach(img => {
+      img.src = img.dataset.src || img.src;
+      img.removeAttribute('loading');
+    });
+  }
+}
+
+function preloadImage(src) {
+  const img = new Image();
+  img.src = src;
+}
+
+// ==========================================================================
+// Analytics Tracking
+// ==========================================================================
+function initAnalytics() {
+  // Track page view
+  if (typeof gtag !== 'undefined') {
+    gtag('config', 'G-XXXXXXXXXX', {
+      page_title: document.title,
+      page_path: window.location.pathname
+    });
+  }
+  
+  // Track outbound links
+  document.querySelectorAll('a[href^="http"]').forEach(link => {
+    if (link.hostname !== window.location.hostname) {
+      link.addEventListener('click', function(e) {
+        trackEvent('Outbound Link', 'Click', this.href);
+      });
+    }
+  });
+  
+  // Track CTA clicks
+  document.querySelectorAll('.btn-primary, .btn-secondary').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const label = this.textContent.trim() || this.getAttribute('aria-label') || 'Unknown Button';
+      trackEvent('CTA', 'Click', label);
+    });
+  });
+}
+
+function trackEvent(category, action, label) {
+  if (typeof gtag !== 'undefined') {
+    gtag('event', action, {
+      'event_category': category,
+      'event_label': label
+    });
+  }
+  console.log(`Tracking: ${category} - ${action} - ${label}`);
+}
+
+// ==========================================================================
+// Service Worker Registration (PWA)
+// ==========================================================================
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').then(registration => {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }).catch(err => {
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
+</body>
+</html>
